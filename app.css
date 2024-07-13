@@ -1,0 +1,32 @@
+body{
+    background-color:whitesmoke;
+    font-family: "Roboto",sans-serif;
+}
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar .nav-link{
+    color: rgb(164, 156, 156);
+}
+#mainNavbar .nav-link:hover{
+    color: white;
+}
+#mainNavbar .navbar-brand{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+p{
+    text-align: center;
+    font-family:"Montserrat",sans-serif;
+    font-weight:lighter;
+}
+.navbar.scrolled {
+    background:red ;
+    transition:background 1s;
+}

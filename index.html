@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="app.css">
+
+    <title>Apple</title>
+</head>
+
+<body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <nav id="mainNavbar" class="navbar navbar-dark bg-dark navbar-expand-md py-0 fixed-top">
+        <a href="#" class="navbar-brand">Apple</a>
+
+        <button class="navbar-toggler " data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+
+                <!-- <li class="nav-item">
+                    <a href="" class="nav-link">Home</a>
+
+                </li> -->
+                <li class="nav-item">
+                    <a href="" class="nav-link">Mac</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">iPad</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">iPhone</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Watch</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">AirPods</a>
+
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="container-fluid px-0 py-0">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class=" text-center d-none d-lg-block">
+                    <h2 class="text-center"> <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAdVBMVEX///8AAADe3t77+/v4+Pi9vb3T09M1NTXk5OT09PSoqKjw8PChoaGDg4MNDQ1ubm5hYWF6enrq6uofHx+vr6+4uLjMzMxYWFgXFxekpKRAQECPj4+Xl5c5OTnExMRsbGxISEhPT08oKChFRUUlJSWIiIgZGRnWeXL+AAAE9klEQVR4nO2daZOiQAyGBUEdRQQBj9HZ0ZnV//8T12Oc5egGFDrppPJ8lqrOW5BO52gHA0EQBEEQBEEQBJMsh9groIEbRInjuNjLIMBo7twZYa/EetKx82CFvRbLCZwcIlYdfpjXSj7DGmZHp8gEe0X2kjplsFdkL3FFqwR7SdZyqGjlRNhrspVxVStnj70oS1FpJZuhmvI2KP5dT9W3X4mxl2UlvlIr+QpVLNVajbHXZSVqh+Vk2OuykUytlbh3BUONVn+wF2Yje7VWB+x1WYnmxVpir8tGArVWAfa6rCRRanXEXpaVrNQvloe9LitRH3SkBKZEqZXUKZRMVFr52KuylKlo1Z5FVSuJ3HUcxbe3pxxlHSRm0FPSSuL2GooZh/UMez1WkxdrLVnkBh5KhSdpa2jkKww3x9NUtsAbnutvT/NFvEtXby0fGbrTOPq69h6d36N42/o52syyuBAahHHW6MJHwXcl9GrzHG28adXqC+/7mhToSJ2DuAVgKd8IzFWcYx6Mp8r3ZLTTP3Ij5unZJusGu9flw/Jy/7fhkdtj/LZMT/8x5fj0fycCJoGyh0ZFzGyMQFczVbwowWjoreatlbrBKSkxjJ4y/QX49NZMNqa1umyoTD7FP+alunBmEXVVe7MNwSCoVyXUzRCSj1Dbb4Pd+cA2tiOa2rIhPrHN7cQMVCvHmWIb3IXnQsvO7LDt7cIJVKqE9Jl6BKoVbYel6bIyxBbb2m5o2vfMQPwo/QapFfWK2bzZRNHqB8gXi/g3OBg0Jc97hP64JpxWa2xTOwN4gCafbBi8g2mVYpvaGTj3Tj0vM4BM+THo+DZeznnwjW1pd3Tjgv3DoOUbLkGKbWkPgLmsObalPQDmshi4d7jwHdvQPoDS6h3b0B5wocQ6YVvaAzDdDQ6PKzG2UGJRT/pd0dzK0D+ki18/1DTa9guDxhk4seinsgDF4tDu9ylitQdMLA4+S8R6AjCfxSHOErGeAEws+pUdQLE4DFaAle45XMQJ15mFbWkPaC6vNQD5/hnA5B8HpwXYm4Vtag/AicUgV9pmtrkfGJTvwQItDkE8WBKeww3CYOUdh0FrCOg0GLaxnfkCFGuBbWxXAD08/Q8RbIr8BvELVjR/12EK4tcUwIqV0C4gtrqnpz82pEsXkJHWlZDyPzbA9Ss/oHzuAWsr/YXwcBhs8HDjSHZThP8OHcLXMDdd8WeEM9FKIlzVogjN3CmSWDRPipDj9zmwzX4N5Z+cGIfqNA/c6G8Oqg3MGC6e7hQwglh0rxsDvbrnDrbJrwMfxVOefAK8Y+UO5bSWB6wV7aYa4FeLcgYQ+tWiXkEE3RDJ5rMehHBaUd4K7wCG8QzGng5QWhHN+xWAKk5z6IkHm5immm4oAXIdNdU8VhmILOAG28jeALj0iMlHeMV4WYz0TfAlTJ96GHTD5zB8NTz5c04Ro/EDg9mwIkdzWnGJGv4zNPaHYbwc1h1j0RbtflINhjonGUVYeYzEpuyc+wMDGXm6RdVGem+sIdxH2kzP//FEti2yHY1jm9E+813XHfnZrvFESbPJ7wnq9sR1Vir8TYK6pDTlzveWLDW5wEjd3zhLNb9fUy7Vt0dxTkyCGtNd1SAQzdbRF5gVd8XzrvGD8ot6fXCo5LTGy368dxKlLUcr3XQxvpwvwySaEh/GfAXPdZnloQRBEARBEIRX+AdxV0kJeQDHYQAAAABJRU5ErkJggg=="
+                            alt="" width="80px">
+                        Apple Products</h2>
+                    <p>Apple Inc., originally Apple Computer, Inc., is a multinational corporation that creates and
+                        markets consumer electronics and attendant computer software, and is a digital distributor of
+                        media content. Apple's core product lines are the iPhone smartphone, iPad tablet computer, and
+                        the Macintosh personal computer. The company offers its products online and has a chain of
+                        retail stores known as Apple Stores. Founders Steve Jobs, Steve Wozniak, and Ronald Wayne
+                        created Apple Computer Co. on April 1, 1976, to market Wozniak's Apple I desktop computer,and
+                        Jobs and Wozniak incorporated the company on January 3, 1977,in Cupertino, California.</p>
+                    <p>For more than three decades, Apple Computer was predominantly a manufacturer of personal
+                        computers, including the Apple II, Macintosh, and Power Mac lines, but it faced rocky sales and
+                        low market share during the 1990s. Jobs, who had been ousted from the company in 1985, returned
+                        to Apple in 1997 after his company NeXT was bought by Apple.The following year he became the
+                        company's interim CEO,which later became permanent.Jobs subsequently instilled a new corporate
+                        philosophy of recognizable products and simple design, starting with the original iMac in 1998.
+                    </p>
+                    <p>With the introduction of the successful iPod music player in 2001 and iTunes Music Store in 2003,
+                        Apple established itself as a leader in the consumer electronics and media sales industries,
+                        leading it to drop "Computer" from the company's name in 2007. The company is also known for its
+                        iOS range of smartphone, media player, and tablet computer products that began with the iPhone,
+                        followed by the iPod Touch and then iPad. As of June 30, 2015, Apple was the largest publicly
+                        traded corporation in the world by market capitalization,with an estimated value of US$1
+                        trillion as of August 2, 2018.Apple's worldwide annual revenue in 2010 totaled US$65 billion,
+                        growing to US$127.8 billion in 2011 and $156 billion in 2012.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="https://images.unsplash.com/photo-1640501887456-1e60938dbcc5?q=80&w=1880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="" width="700px" height="800px">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid px-0  ">
+        <div class="row  align-items-center content ">
+            <div class="col-md-6 ">
+                <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1626&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="" width="700px" height="800px" class="img-fluid d-none d-lg-inline">
+            </div>
+            <div class="col-md-6 text-center">
+                <div class=" text-center  ">
+                    <h2 class="text-center">Mac</h2>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAe1BMVEX///8AAAD29vY7OzsQEBB4eHjR0dGxsbHq6upKSkqamprz8/P7+/soKCjAwMDw8PDKysri4uKnp6eAgIBycnJhYWEICAjY2NhoaGjj4+PDw8NtbW2GhoZISEhcXFxPT0+3t7eQkJAtLS1BQUE2NjagoKAhISEYGBiMjIy8C4EnAAAFFklEQVR4nO2aabuiOBCFxQ1FRbguuF3Fq3b7/3/hCAFywqJhSU/PPOf9pJBUwqFSqST0eoQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYT815iPJ/92F1T+su4gnmVZG9+AYf+6WTew61jW0O2+N50wt2I6l8vfxHbrmnW3cbVB0K71wH7uboMumH6BWc+yDMgVnBOrx1rV/G8r607jweg70koXnKRpW17d7Zv2L4c3zWx+16jWHymdXM0bND1/LDpVKkL2w8bLnch1GIDFqX69r0IvH7Xbvnau1ItZZt5Wb7SWy1XfrLZY3q+yfoa12j6YkMq6yAbs/L1jG7ns/CNrijU5yypnD1xzMNZvfGSZ4NKHx4uvbNAfjk1j69cQrCxqiPWU1X55r//hVl446/bmAo1/P8Pxst8J2IQQ69Gzf7eV64HvY+DNtMUKoV46UTtwbdV/Wz1BTirHQ5OpQQchlhP9QrnWNeXqX1Gq6cs9JppiBTdZbyRl6a/AnvO5A+u07FVL2mbY0Bsbh1EduWYwjl4DJ84oc2JN3DB0i+Gwv5b1bmqmN9nIW9uwUDOwHcfOclc3KXhZ6ve6PihWLtyvNRteohNkya0iVhqz7we1Kg7d4hongEj/46ndTt7r1hb/k1Kngo1OUcV6/YfYquVdE/ANnEtRLFcWsKGqB558LTXuQmi4gONBThZHuav4/azz5A3Ii5WTa/RBLn9nVZRGsUDPc1ZgD9PXptKJMVUdZekhtBovqPK2DVEUK5dLj94MxuCMJU9KSRQrkIWy0XSS137eJVNzKJj1EwxG/pbMp7M3ZjqhTKycXKsKucaY2RRmISVmpWM1G6UYHL9671mi9ybDeHmK/X/4jAUSU4HhgNWrEktDLu+GJZxCapNPHXzPy4LO+A62NZKiAPYRFqlvLvf71JXEHfObhlVifZDLvePdMt+ozrPQUy6ai6sDrKMu+c0kX6ioZ6kN1WLl5YKIEOLqaGuXVq4UC5Lz4aF4uwrszFGNTuIZVvq2mvJOrLxciZ8r0+UirKhaIRZkETqJOXKFqkqmERYvmeG9WEraKDJzdQlYvVteKpYvV3DCPfyxPoGLO2Uw9L2/w7MiEnV2UaSY4wLXunlvqpWINYdU/ydSfna0mrPIxnBQ9l5M8FmsWC4x5yuj8vJ+q6koFtaO45yifAO+k6VhcuhicAWdoCNWb16U6vzp/CUv1hgmhThdOOAuR0N2YpIWmYX5oKUlVoQSq3afj4JUsXALYRpV3isZbXOeke7JazSeaGmL1ZeDRmv3RhELt3CiOUHZrWrJK9L3xS/jmZa2WL00xlStfnKAWLgVGrfkH9ejloBjDt00+i2M7mbVE6s3f4wc3dVqJlbFVmhbPFhDfAfpn/IEuStqiVUHIdalV70V2hZ02CwDu5v8TsKwWLgu6v4xynOPa8sPJaoxLBY8QvdNFE78MzYPz0T4+kNi7UyF3v25TKyYYSccC4eshsVa1DhXrs34p1KuTrjLpv6EWGanKPUA2wAyBIoppf73Kh9Zpm01+nSoJlmk355KnrYlcliIU3YTn0mKYKK7FdqSdEnwSuIPq9IPchqD64JoMyg08gBTy/pdYyu0JSLSi/aWB2fXVSQ7q1m4sfWnbyzhKWW8WpmcSAghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQggh/0/+AR7BO6vP8MERAAAAAElFTkSuQmCC"
+                        alt="" height="100px">
+                    <p>Mac, short for Macintosh (its official name until 1999), is a family of personal computers
+                        designed and marketed by Apple. The name Macintosh is a reference to a type of apple called
+                        McIntosh. The product lineup includes the MacBook Air and MacBook Pro laptops, and the iMac, Mac
+                        Mini, Mac Studio, and Mac Pro desktops. Macs are sold with the macOS operating system.</p>
+                    <p>Jef Raskin conceived the Macintosh project in 1979, which was usurped and redefined by Apple
+                        co-founder Steve Jobs in 1981. The Macintosh was launched in January 1984, after Apple's "1984"
+                        advertisement during Super Bowl XVIII. The system has a 9-inch monochrome monitor and 3 1/2-inch
+                        floppy drive built into the case and shipped with a one-button mouse. A series of incrementally
+                        improved models followed, sharing the same integrated case design. Jobs left Apple in 1985.</p>
+                    <p>In 1987, the Macintosh II brought color graphics, but priced as a professional workstation and
+                        not a personal computer. Beginning in 1994 with the Power Macintosh, the Mac transitioned from
+                        Motorola 68000 series processors to PowerPC. Despite the significant performance increase, the
+                        Mac was not fully competitive with commodity IBM PC compatibles throughout the 1990s.</p>
+                    <p>The 1996 acquisition of NeXT returned Steve Jobs to Apple, whose focused product oversight pushed
+                        the Mac mainstream with the 1998 iMac G3, the Mac OS X operating system (renamed to macOS in
+                        2016), and the Mac transition to Intel processors from 2005 to 2006. High pixel density Retina
+                        displays debuted in the iPhone 4 in 2010 and the MacBook Pro in 2012. In the 2010s, the Mac was
+                        neglected under CEO Tim Cook, especially for professional users, but was reinvigorated with new
+                        high-end Macs and the transition to Apple silicon, which had originated in iOS devices.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="container-fluid px-0 py-0">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class=" text-center d-none d-lg-block">
+                    <h2 class="text-center"> <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAdVBMVEX///8AAADe3t77+/v4+Pi9vb3T09M1NTXk5OT09PSoqKjw8PChoaGDg4MNDQ1ubm5hYWF6enrq6uofHx+vr6+4uLjMzMxYWFgXFxekpKRAQECPj4+Xl5c5OTnExMRsbGxISEhPT08oKChFRUUlJSWIiIgZGRnWeXL+AAAE9klEQVR4nO2daZOiQAyGBUEdRQQBj9HZ0ZnV//8T12Oc5egGFDrppPJ8lqrOW5BO52gHA0EQBEEQBEEQBJMsh9groIEbRInjuNjLIMBo7twZYa/EetKx82CFvRbLCZwcIlYdfpjXSj7DGmZHp8gEe0X2kjplsFdkL3FFqwR7SdZyqGjlRNhrspVxVStnj70oS1FpJZuhmvI2KP5dT9W3X4mxl2UlvlIr+QpVLNVajbHXZSVqh+Vk2OuykUytlbh3BUONVn+wF2Yje7VWB+x1WYnmxVpir8tGArVWAfa6rCRRanXEXpaVrNQvloe9LitRH3SkBKZEqZXUKZRMVFr52KuylKlo1Z5FVSuJ3HUcxbe3pxxlHSRm0FPSSuL2GooZh/UMez1WkxdrLVnkBh5KhSdpa2jkKww3x9NUtsAbnutvT/NFvEtXby0fGbrTOPq69h6d36N42/o52syyuBAahHHW6MJHwXcl9GrzHG28adXqC+/7mhToSJ2DuAVgKd8IzFWcYx6Mp8r3ZLTTP3Ij5unZJusGu9flw/Jy/7fhkdtj/LZMT/8x5fj0fycCJoGyh0ZFzGyMQFczVbwowWjoreatlbrBKSkxjJ4y/QX49NZMNqa1umyoTD7FP+alunBmEXVVe7MNwSCoVyXUzRCSj1Dbb4Pd+cA2tiOa2rIhPrHN7cQMVCvHmWIb3IXnQsvO7LDt7cIJVKqE9Jl6BKoVbYel6bIyxBbb2m5o2vfMQPwo/QapFfWK2bzZRNHqB8gXi/g3OBg0Jc97hP64JpxWa2xTOwN4gCafbBi8g2mVYpvaGTj3Tj0vM4BM+THo+DZeznnwjW1pd3Tjgv3DoOUbLkGKbWkPgLmsObalPQDmshi4d7jwHdvQPoDS6h3b0B5wocQ6YVvaAzDdDQ6PKzG2UGJRT/pd0dzK0D+ki18/1DTa9guDxhk4seinsgDF4tDu9ylitQdMLA4+S8R6AjCfxSHOErGeAEws+pUdQLE4DFaAle45XMQJ15mFbWkPaC6vNQD5/hnA5B8HpwXYm4Vtag/AicUgV9pmtrkfGJTvwQItDkE8WBKeww3CYOUdh0FrCOg0GLaxnfkCFGuBbWxXAD08/Q8RbIr8BvELVjR/12EK4tcUwIqV0C4gtrqnpz82pEsXkJHWlZDyPzbA9Ss/oHzuAWsr/YXwcBhs8HDjSHZThP8OHcLXMDdd8WeEM9FKIlzVogjN3CmSWDRPipDj9zmwzX4N5Z+cGIfqNA/c6G8Oqg3MGC6e7hQwglh0rxsDvbrnDrbJrwMfxVOefAK8Y+UO5bSWB6wV7aYa4FeLcgYQ+tWiXkEE3RDJ5rMehHBaUd4K7wCG8QzGng5QWhHN+xWAKk5z6IkHm5immm4oAXIdNdU8VhmILOAG28jeALj0iMlHeMV4WYz0TfAlTJ96GHTD5zB8NTz5c04Ro/EDg9mwIkdzWnGJGv4zNPaHYbwc1h1j0RbtflINhjonGUVYeYzEpuyc+wMDGXm6RdVGem+sIdxH2kzP//FEti2yHY1jm9E+813XHfnZrvFESbPJ7wnq9sR1Vir8TYK6pDTlzveWLDW5wEjd3zhLNb9fUy7Vt0dxTkyCGtNd1SAQzdbRF5gVd8XzrvGD8ot6fXCo5LTGy368dxKlLUcr3XQxvpwvwySaEh/GfAXPdZnloQRBEARBEIRX+AdxV0kJeQDHYQAAAABJRU5ErkJggg=="
+                            alt="" width="80px">
+                        iPad</h2>
+                    <p>The iPad is a brand of iOS- and iPadOS-based tablet computers that are developed by Apple, first
+                        introduced on January 27, 2010. The iPad range consists of the original iPad lineup and the
+                        flagship products iPad Mini, iPad Air, and iPad Pro.</p>
+                    <p>The iPhone's iOS operating system (OS) was initially used for the iPad but in September 2019, its
+                        OS was switched to a fork of iOS called iPadOS that has better support for the device's hardware
+                        and its user interface is customized for the tablets' larger screens. The iPad's App Store is
+                        subject to application and content approval. Many older devices are susceptible to jailbreaking,
+                        which circumvents these restrictions. The original iPad was well-received for its software and
+                        was recognized as one of the most-influential inventions of 2010.
+                    </p>
+                    <p>As of the third quarter of 2021, iPad had a market share of 34.6%; beside personal use, the iPad
+                        is used in the business, education, healthcare, and technology sectors. There are two
+                        connectivity variants of iPad; one has only Wi-Fi and one has support for cellular networks.
+                        Accessories for the iPad include the Apple Pencil, Smart Case, Smart Keyboard, Smart Keyboard
+                        Folio, Magic Keyboard, and several adapters.</p>
+                    <p>The iPad comes in two variants: Wi-Fi only and Wi-Fi with cellular support. Unlike the iPhone,
+                        the cellular variant did not support voice calls and text messages, but only data connectivity;
+                        it also had an additional micro-SIM circuit slot attached on the side. The 3G-based iPad is
+                        compatible with any GSM carrier, unlike the iPhone which is usually sold 'locked' to specific
+                        carriers.For the first generation of iPad, cellular access from T-Mobile was limited to
+                        slower EDGE cellular speeds because T-Mobile's network at the time used different
+                        frequencies.</p>
+                    <!-- <p>The second generation of iPad introduced a third tier of CDMA support from Verizon, which is available separately from the AT&T-based version.[70] The fifth generation of iPad used a nano-SIM circuit slot,[71] while its predecessors used micro-SIM.[a] The iPads used two frequency bands; both support the same quad-band GSM and quad-band UMTS frequencies. One supports LTE bands 4 and 17 (principally intended for use on the U.S. AT&T network), and the other supports LTE bands 1, 3, 5, 13, 25 and CDMA EV-DO Rev. A and Rev. B.[76]</p> -->
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="https://images.unsplash.com/photo-1544244015-9c72fd9c866d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8"
+                    alt="" width="700px" height="800px">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid px-0  ">
+        <div class="row  align-items-center content ">
+            <div class="col-md-6 ">
+                <img src="https://images.unsplash.com/photo-1605250816977-78e7497ebb3c?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="" width="900px" height="900px" class="img-fluid d-none d-lg-inline">
+            </div>
+            <div class="col-md-6 text-center">
+                <div class=" text-center  ">
+                    <h2 class="text-center"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAdVBMVEX///8AAADe3t77+/v4+Pi9vb3T09M1NTXk5OT09PSoqKjw8PChoaGDg4MNDQ1ubm5hYWF6enrq6uofHx+vr6+4uLjMzMxYWFgXFxekpKRAQECPj4+Xl5c5OTnExMRsbGxISEhPT08oKChFRUUlJSWIiIgZGRnWeXL+AAAE9klEQVR4nO2daZOiQAyGBUEdRQQBj9HZ0ZnV//8T12Oc5egGFDrppPJ8lqrOW5BO52gHA0EQBEEQBEEQBJMsh9groIEbRInjuNjLIMBo7twZYa/EetKx82CFvRbLCZwcIlYdfpjXSj7DGmZHp8gEe0X2kjplsFdkL3FFqwR7SdZyqGjlRNhrspVxVStnj70oS1FpJZuhmvI2KP5dT9W3X4mxl2UlvlIr+QpVLNVajbHXZSVqh+Vk2OuykUytlbh3BUONVn+wF2Yje7VWB+x1WYnmxVpir8tGArVWAfa6rCRRanXEXpaVrNQvloe9LitRH3SkBKZEqZXUKZRMVFr52KuylKlo1Z5FVSuJ3HUcxbe3pxxlHSRm0FPSSuL2GooZh/UMez1WkxdrLVnkBh5KhSdpa2jkKww3x9NUtsAbnutvT/NFvEtXby0fGbrTOPq69h6d36N42/o52syyuBAahHHW6MJHwXcl9GrzHG28adXqC+/7mhToSJ2DuAVgKd8IzFWcYx6Mp8r3ZLTTP3Ij5unZJusGu9flw/Jy/7fhkdtj/LZMT/8x5fj0fycCJoGyh0ZFzGyMQFczVbwowWjoreatlbrBKSkxjJ4y/QX49NZMNqa1umyoTD7FP+alunBmEXVVe7MNwSCoVyXUzRCSj1Dbb4Pd+cA2tiOa2rIhPrHN7cQMVCvHmWIb3IXnQsvO7LDt7cIJVKqE9Jl6BKoVbYel6bIyxBbb2m5o2vfMQPwo/QapFfWK2bzZRNHqB8gXi/g3OBg0Jc97hP64JpxWa2xTOwN4gCafbBi8g2mVYpvaGTj3Tj0vM4BM+THo+DZeznnwjW1pd3Tjgv3DoOUbLkGKbWkPgLmsObalPQDmshi4d7jwHdvQPoDS6h3b0B5wocQ6YVvaAzDdDQ6PKzG2UGJRT/pd0dzK0D+ki18/1DTa9guDxhk4seinsgDF4tDu9ylitQdMLA4+S8R6AjCfxSHOErGeAEws+pUdQLE4DFaAle45XMQJ15mFbWkPaC6vNQD5/hnA5B8HpwXYm4Vtag/AicUgV9pmtrkfGJTvwQItDkE8WBKeww3CYOUdh0FrCOg0GLaxnfkCFGuBbWxXAD08/Q8RbIr8BvELVjR/12EK4tcUwIqV0C4gtrqnpz82pEsXkJHWlZDyPzbA9Ss/oHzuAWsr/YXwcBhs8HDjSHZThP8OHcLXMDdd8WeEM9FKIlzVogjN3CmSWDRPipDj9zmwzX4N5Z+cGIfqNA/c6G8Oqg3MGC6e7hQwglh0rxsDvbrnDrbJrwMfxVOefAK8Y+UO5bSWB6wV7aYa4FeLcgYQ+tWiXkEE3RDJ5rMehHBaUd4K7wCG8QzGng5QWhHN+xWAKk5z6IkHm5immm4oAXIdNdU8VhmILOAG28jeALj0iMlHeMV4WYz0TfAlTJ96GHTD5zB8NTz5c04Ro/EDg9mwIkdzWnGJGv4zNPaHYbwc1h1j0RbtflINhjonGUVYeYzEpuyc+wMDGXm6RdVGem+sIdxH2kzP//FEti2yHY1jm9E+813XHfnZrvFESbPJ7wnq9sR1Vir8TYK6pDTlzveWLDW5wEjd3zhLNb9fUy7Vt0dxTkyCGtNd1SAQzdbRF5gVd8XzrvGD8ot6fXCo5LTGy368dxKlLUcr3XQxvpwvwySaEh/GfAXPdZnloQRBEARBEIRX+AdxV0kJeQDHYQAAAABJRU5ErkJggg=="
+                        alt="" width="80px"> iPhone</h2>
+                    
+                    <p>The iPhone is a line of smartphones produced by Apple that use Apple's own iOS mobile operating system. The first-generation iPhone was announced by then–Apple CEO Steve Jobs on January 9, 2007. Since then, Apple has annually released new iPhone models and iOS updates. As of November 1, 2018, more than 2.2 billion iPhones had been sold.</p>
+                    <p>The iPhone was the first mobile phone to use multi-touch technology. Since the iPhone's launch, it has gained larger screen sizes, video-recording, waterproofing, and many accessibility features. Up to the iPhone 8 and 8 Plus, iPhones had a single button on the front panel, with the iPhone 5s and later integrating a Touch ID fingerprint sensor. Since the iPhone X, iPhone models have switched to a nearly bezel-less front screen design with Face ID facial recognition, and app switching activated by gestures. Touch ID is still used for the budget iPhone SE series.</p>
+                    <p>The iPhone is one of the two largest smartphone platforms in the world alongside Android, and is a large part of the luxury market. The iPhone has generated large profits for Apple, making it one of the world's most valuable publicly traded companies. The first-generation iPhone was described as a "revolution" for the mobile phone industry and subsequent models have also garnered praise. The iPhone has been credited with popularizing the smartphone and slate form factor, and with creating a large market for smartphone apps, or "app economy". As of January 2017, Apple's App Store contained more than 2.2 million applications for the iPhone.</p>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="container-fluid px-0 py-0">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class=" text-center d-none d-lg-block">
+                    <h2 class="text-center"> <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAdVBMVEX///8AAADe3t77+/v4+Pi9vb3T09M1NTXk5OT09PSoqKjw8PChoaGDg4MNDQ1ubm5hYWF6enrq6uofHx+vr6+4uLjMzMxYWFgXFxekpKRAQECPj4+Xl5c5OTnExMRsbGxISEhPT08oKChFRUUlJSWIiIgZGRnWeXL+AAAE9klEQVR4nO2daZOiQAyGBUEdRQQBj9HZ0ZnV//8T12Oc5egGFDrppPJ8lqrOW5BO52gHA0EQBEEQBEEQBJMsh9groIEbRInjuNjLIMBo7twZYa/EetKx82CFvRbLCZwcIlYdfpjXSj7DGmZHp8gEe0X2kjplsFdkL3FFqwR7SdZyqGjlRNhrspVxVStnj70oS1FpJZuhmvI2KP5dT9W3X4mxl2UlvlIr+QpVLNVajbHXZSVqh+Vk2OuykUytlbh3BUONVn+wF2Yje7VWB+x1WYnmxVpir8tGArVWAfa6rCRRanXEXpaVrNQvloe9LitRH3SkBKZEqZXUKZRMVFr52KuylKlo1Z5FVSuJ3HUcxbe3pxxlHSRm0FPSSuL2GooZh/UMez1WkxdrLVnkBh5KhSdpa2jkKww3x9NUtsAbnutvT/NFvEtXby0fGbrTOPq69h6d36N42/o52syyuBAahHHW6MJHwXcl9GrzHG28adXqC+/7mhToSJ2DuAVgKd8IzFWcYx6Mp8r3ZLTTP3Ij5unZJusGu9flw/Jy/7fhkdtj/LZMT/8x5fj0fycCJoGyh0ZFzGyMQFczVbwowWjoreatlbrBKSkxjJ4y/QX49NZMNqa1umyoTD7FP+alunBmEXVVe7MNwSCoVyXUzRCSj1Dbb4Pd+cA2tiOa2rIhPrHN7cQMVCvHmWIb3IXnQsvO7LDt7cIJVKqE9Jl6BKoVbYel6bIyxBbb2m5o2vfMQPwo/QapFfWK2bzZRNHqB8gXi/g3OBg0Jc97hP64JpxWa2xTOwN4gCafbBi8g2mVYpvaGTj3Tj0vM4BM+THo+DZeznnwjW1pd3Tjgv3DoOUbLkGKbWkPgLmsObalPQDmshi4d7jwHdvQPoDS6h3b0B5wocQ6YVvaAzDdDQ6PKzG2UGJRT/pd0dzK0D+ki18/1DTa9guDxhk4seinsgDF4tDu9ylitQdMLA4+S8R6AjCfxSHOErGeAEws+pUdQLE4DFaAle45XMQJ15mFbWkPaC6vNQD5/hnA5B8HpwXYm4Vtag/AicUgV9pmtrkfGJTvwQItDkE8WBKeww3CYOUdh0FrCOg0GLaxnfkCFGuBbWxXAD08/Q8RbIr8BvELVjR/12EK4tcUwIqV0C4gtrqnpz82pEsXkJHWlZDyPzbA9Ss/oHzuAWsr/YXwcBhs8HDjSHZThP8OHcLXMDdd8WeEM9FKIlzVogjN3CmSWDRPipDj9zmwzX4N5Z+cGIfqNA/c6G8Oqg3MGC6e7hQwglh0rxsDvbrnDrbJrwMfxVOefAK8Y+UO5bSWB6wV7aYa4FeLcgYQ+tWiXkEE3RDJ5rMehHBaUd4K7wCG8QzGng5QWhHN+xWAKk5z6IkHm5immm4oAXIdNdU8VhmILOAG28jeALj0iMlHeMV4WYz0TfAlTJ96GHTD5zB8NTz5c04Ro/EDg9mwIkdzWnGJGv4zNPaHYbwc1h1j0RbtflINhjonGUVYeYzEpuyc+wMDGXm6RdVGem+sIdxH2kzP//FEti2yHY1jm9E+813XHfnZrvFESbPJ7wnq9sR1Vir8TYK6pDTlzveWLDW5wEjd3zhLNb9fUy7Vt0dxTkyCGtNd1SAQzdbRF5gVd8XzrvGD8ot6fXCo5LTGy368dxKlLUcr3XQxvpwvwySaEh/GfAXPdZnloQRBEARBEIRX+AdxV0kJeQDHYQAAAABJRU5ErkJggg=="
+                            alt="" width="80px">
+                        watch</h2>
+                    <p>The Apple Watch is a brand of smartwatch products produced by Apple. It incorporates fitness tracking, health-oriented capabilities, and wireless telecommunication, and integrates with watchOS and other Apple products and services. The Apple Watch was released in April 2015, and quickly became the world's best-selling wearable device: 4.2 million were sold in the second quarter of fiscal 2015, and more than 115 million people were estimated to use an Apple Watch as of December 2022. Apple has introduced a new generation of the Apple Watch with improved internal components each September – each labeled by Apple as a 'Series', with certain exceptions.</p>
+                    <p>Each Series has been initially sold in multiple variants defined by the watch casing's material, color, and size (except for the budget watches Series 1 and SE, available only in aluminum,and the Ultra, available only in 49 mm titanium), and beginning with Series 3, by the option in the aluminum variants for LTE cellular connectivity, which comes standard with the other materials. The band included with the watch can be selected from multiple options from Apple, and watch variants in aluminum co-branded with Nike and in stainless steel co-branded with Hermès are also offered, which include exclusive bands, colors, and digital watch faces carrying those companies' branding.
+                    </p>
+                    <p>The Apple Watch operates in conjunction with the user's iPhone for functions such as configuring the watch and syncing data with iPhone apps, but can separately connect to a Wi-Fi network for data-reliant purposes, including communications, app use, and audio streaming. LTE-equipped models can also perform these functions over a mobile network, and can make and receive phone calls independently when the paired iPhone is not nearby or is powered-off, substantially reducing the need for an iPhone after initial setup.[b] The oldest iPhone model that is compatible with any given Apple Watch depends on the version of the operating system installed on each device.As of September 2023, new Apple Watches come with watchOS 10 preinstalled and require an iPhone running iOS 17, which is compatible for the iPhone XS and later.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="https://images.unsplash.com/photo-1614106765035-bceac4ac1911?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D"
+                    alt="" width="700px" height="800px">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid px-0  ">
+        <div class="row  align-items-center content ">
+            <div class="col-md-6 ">
+                <img src="https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?q=80&w=1626&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="" width="900px" height="900px" class="img-fluid d-none d-lg-inline">
+            </div>
+            <div class="col-md-6 text-center">
+                <div class=" text-center  ">
+                    <h2 class="text-center"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAdVBMVEX///8AAADe3t77+/v4+Pi9vb3T09M1NTXk5OT09PSoqKjw8PChoaGDg4MNDQ1ubm5hYWF6enrq6uofHx+vr6+4uLjMzMxYWFgXFxekpKRAQECPj4+Xl5c5OTnExMRsbGxISEhPT08oKChFRUUlJSWIiIgZGRnWeXL+AAAE9klEQVR4nO2daZOiQAyGBUEdRQQBj9HZ0ZnV//8T12Oc5egGFDrppPJ8lqrOW5BO52gHA0EQBEEQBEEQBJMsh9groIEbRInjuNjLIMBo7twZYa/EetKx82CFvRbLCZwcIlYdfpjXSj7DGmZHp8gEe0X2kjplsFdkL3FFqwR7SdZyqGjlRNhrspVxVStnj70oS1FpJZuhmvI2KP5dT9W3X4mxl2UlvlIr+QpVLNVajbHXZSVqh+Vk2OuykUytlbh3BUONVn+wF2Yje7VWB+x1WYnmxVpir8tGArVWAfa6rCRRanXEXpaVrNQvloe9LitRH3SkBKZEqZXUKZRMVFr52KuylKlo1Z5FVSuJ3HUcxbe3pxxlHSRm0FPSSuL2GooZh/UMez1WkxdrLVnkBh5KhSdpa2jkKww3x9NUtsAbnutvT/NFvEtXby0fGbrTOPq69h6d36N42/o52syyuBAahHHW6MJHwXcl9GrzHG28adXqC+/7mhToSJ2DuAVgKd8IzFWcYx6Mp8r3ZLTTP3Ij5unZJusGu9flw/Jy/7fhkdtj/LZMT/8x5fj0fycCJoGyh0ZFzGyMQFczVbwowWjoreatlbrBKSkxjJ4y/QX49NZMNqa1umyoTD7FP+alunBmEXVVe7MNwSCoVyXUzRCSj1Dbb4Pd+cA2tiOa2rIhPrHN7cQMVCvHmWIb3IXnQsvO7LDt7cIJVKqE9Jl6BKoVbYel6bIyxBbb2m5o2vfMQPwo/QapFfWK2bzZRNHqB8gXi/g3OBg0Jc97hP64JpxWa2xTOwN4gCafbBi8g2mVYpvaGTj3Tj0vM4BM+THo+DZeznnwjW1pd3Tjgv3DoOUbLkGKbWkPgLmsObalPQDmshi4d7jwHdvQPoDS6h3b0B5wocQ6YVvaAzDdDQ6PKzG2UGJRT/pd0dzK0D+ki18/1DTa9guDxhk4seinsgDF4tDu9ylitQdMLA4+S8R6AjCfxSHOErGeAEws+pUdQLE4DFaAle45XMQJ15mFbWkPaC6vNQD5/hnA5B8HpwXYm4Vtag/AicUgV9pmtrkfGJTvwQItDkE8WBKeww3CYOUdh0FrCOg0GLaxnfkCFGuBbWxXAD08/Q8RbIr8BvELVjR/12EK4tcUwIqV0C4gtrqnpz82pEsXkJHWlZDyPzbA9Ss/oHzuAWsr/YXwcBhs8HDjSHZThP8OHcLXMDdd8WeEM9FKIlzVogjN3CmSWDRPipDj9zmwzX4N5Z+cGIfqNA/c6G8Oqg3MGC6e7hQwglh0rxsDvbrnDrbJrwMfxVOefAK8Y+UO5bSWB6wV7aYa4FeLcgYQ+tWiXkEE3RDJ5rMehHBaUd4K7wCG8QzGng5QWhHN+xWAKk5z6IkHm5immm4oAXIdNdU8VhmILOAG28jeALj0iMlHeMV4WYz0TfAlTJ96GHTD5zB8NTz5c04Ro/EDg9mwIkdzWnGJGv4zNPaHYbwc1h1j0RbtflINhjonGUVYeYzEpuyc+wMDGXm6RdVGem+sIdxH2kzP//FEti2yHY1jm9E+813XHfnZrvFESbPJ7wnq9sR1Vir8TYK6pDTlzveWLDW5wEjd3zhLNb9fUy7Vt0dxTkyCGtNd1SAQzdbRF5gVd8XzrvGD8ot6fXCo5LTGy368dxKlLUcr3XQxvpwvwySaEh/GfAXPdZnloQRBEARBEIRX+AdxV0kJeQDHYQAAAABJRU5ErkJggg=="
+                        alt="" width="80px">AirPods</h2>
+                    
+                    <p>AirPods are wireless Bluetooth earbuds designed by Apple. They were first announced on September 7, 2016, alongside the iPhone 7. Within two years, they became Apple's most popular accessory. AirPods are Apple's entry-level wireless headphones, sold alongside the AirPods Pro and AirPods Max.</p>
+                    <p>In addition to playing audio, the AirPods contain a microphone that filters out background noise as well as built-in accelerometers and optical sensors capable of detecting taps and pinches (e.g. double-tap or pinch to pause audio) and placement within the ear, which enables automatic pausing of audio when they are taken out of the ear.</p>
+                    <p>On March 20, 2019, Apple released the second-generation AirPods, which feature the H1 chip, longer talk time, and hands-free "Hey Siri" support. An optional wireless charging case which costs extra was added in the offerings.</p>
+                    <p>On October 26, 2021, Apple released the third-generation AirPods, which feature an external redesign with shorter stems similar to AirPods Pro, spatial audio, IPX4 water resistance, longer battery life, and MagSafe charging capability.</p>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+
+</body>
+
+</html>
